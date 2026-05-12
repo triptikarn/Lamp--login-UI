@@ -392,7 +392,15 @@
                 50% { opacity: 1; }
             }
             .lamp-wrap { position: relative; display: inline-block; }
-        </style>
+
+
+            .success-sub{
+                color: #00ff99;
+                font-weight: bold;
+                text-shadow: 0 0 8px #00ff99;
+                font-style: normal;
+            }
+            </style>
     </head>
     <body>
         <!-- Background layers -->
@@ -516,7 +524,8 @@
                 <div class="success-overlay" id="successOverlay">
                     <div class="success-ring"></div>
                     <div class="success-check">✓</div>
-                    <p class="success-label">Access Granted</p>
+                    <p class="success-label "style="color:#00ff88;font-weight: bold;
+                text-shadow: 0 0 8px #00ff99;">Access Granted</p>
                     <p class="success-sub">Welcome, <em id="welcomeName"></em></p>
                 </div>
             </div>
